@@ -1,0 +1,76 @@
+
+
+.form_body{
+    background-color: rgba(0, 0, 0, 0.644);
+    min-height: 39.05em;
+    background-image: url('../meal_pics/pexels-photo-1321731.jpeg');
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+}
+
+
+.sign_up_form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.form_title{
+    text-align: center;
+    font-family:'redressed';
+    font-size: 3em;
+    color:white; 
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form_label{
+    font-family: 'geosans';
+    font-size: 1.3rem;
+    color: white;
+    /* margin-bottom: 0.2rem; */
+    margin-top: 0.8rem;
+}
+
+.input_btn{
+    height: 2.5em;
+    margin-bottom: 0.5rem;
+    border:none;
+    border-bottom: solid 1px red;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    transition: 0.9s;
+}
+
+.input_btn:focus{
+    border-bottom: solid 1.5px rgb(42, 231, 143);
+}
+
+.input_btn::placeholder{
+    color: rgb(185, 185, 185);
+    font-style: italic;
+}
+
+.submit_btn{
+    background-color: red;
+    color:white;
+    border: none;
+    font-family: 'geosans';
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form_notification{
+    color: rgb(247, 68, 14);
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 1rem;
+}
+
+.form_redirection{
+    margin-top: 1em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

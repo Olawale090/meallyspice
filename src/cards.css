@@ -1,0 +1,85 @@
+@font-face {
+    font-family: lato;
+    src: url('fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('fonts/Quicksand-Regular.otf');
+}
+
+@font-face {
+    font-family: 'geosans';
+    src: url('fonts/GeosansLight.ttf');
+}
+
+@font-face {
+    font-family: 'adam';
+    src: url('fonts/Adam.otf');
+}
+
+.meals_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+}
+
+
+.meal_category {
+    width: 18em;
+    height: 27em;
+    margin-left: 2.5em;
+}
+        
+.meal_card::before{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 1em;
+    margin-top: 0.2em;
+    margin-left: 0.2em;
+    font-family: Arial black;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.card_section_1::before{
+    content: "Yam and Egg";
+}
+
+.card_section_2::before{
+    content: "Pounded yam";
+}
+
+.card_section_3::before{
+    content: "Fufu";
+}
+
+.meal_info{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 0.25rem;
+    font-family: 'geosans';
+    margin-top: -0.5em;
+    padding-top: 0.5em;
+    font-weight: 500;
+}
+
+.meal_info_links{
+    appearance: none;
+    color: red;
+    font-weight: bold;
+}
+
+.card_section_1{
+    margin-left: 14%;
+}
+
+.card_image{
+    width: 100%;
+    height: 18em;
+    object-fit: cover;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    
+}

@@ -1,0 +1,29 @@
+.services{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 100%;
+    justify-items: center;
+    
+}
+
+.services_tabs{
+    background-color:red;
+    height: 12em;
+    width: 25em;
+    margin:1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    font-size: 1rem;
+}
+
+.services_tabs:hover{
+    background-color: whitesmoke;
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+}

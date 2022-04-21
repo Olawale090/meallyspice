@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: Bebas;
+    src: url('./fonts/Bebas-Regular.ttf');
+}
+
+@font-face {
+    font-family: bestlife;
+    src: url('./fonts/Bestlife.ttf');
+}
+
+.main_banner{
+    width: 100%;
+    height: 30em;
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 2em;
+    background-image: url('meal_pics/appetizer-background-cuisine-326281.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: end;
+}
+
+.banner_content{
+    height: 100%;
+    margin-right: 2rem;
+    flex-direction: column;
+}
+
+.banner_text{
+    margin-top: 5%;
+    font-size: 2.5rem;
+    color: white;
+    font-family: Bebas;
+    z-index: 2;
+}
+
+.second_banner_text{
+    font-size: 2rem;
+    color: red;
+    font-family: bestlife;
+    padding: 0.5rem;
+    filter: drop-shadow(1px 1px 1px black);
+    margin-top: 15%;
+}
+
+.button_1{
+    margin-top: 2rem;
+    width: 10em;
+    height: 3em;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: 'geosans';
+    font-size: 1.2rem;
+}

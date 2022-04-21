@@ -1,0 +1,19 @@
+@import url("./cards.css");
+
+
+.card1::before{
+    content: "Amala";
+}
+
+.card2::before{
+    content: "Soup";
+}
+
+.card3::before{
+    content: "Jollof rice";
+}
+
+
+.card1{
+    margin-left: 14%;
+}
