@@ -18,7 +18,11 @@ export default class Placeorder extends Component {
 
                         <label className="form_label"> Food category </label>
                         <select className="input_btn" type="text" placeholder="Please enter your meal type">
-                            <option className="food_type"> Swallow</option>
+                            <option className="food_type"> Amala </option>
+                            <option className="food_type"> Eba </option>
+                            <option className="food_type"> Semovita </option>
+                            <option className="food_type"> Fufu </option>
+                            <option className="food_type"> Porridge </option>
                             <option className="food_type"> Jollof rice </option>
                             <option className="food_type"> Fried rice </option>
                             <option className="food_type"> Cook up rice </option>

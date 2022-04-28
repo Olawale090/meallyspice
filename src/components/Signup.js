@@ -14,16 +14,16 @@ export class Signup extends Component {
 
                     <header className="form_title"> meallySpice </header>
                     <label className="form_label">Customer name </label>
-                    <input className="input_btn" type="text" placeholder="Please enter your full name"></input>
+                    <input className="input_btn" type="text" name="fullname"  placeholder="Please enter your full name"></input>
 
                     <label className="form_label"> Phone number </label>
-                    <input className="input_btn" type="text" placeholder="Please enter your phone number "></input>
+                    <input className="input_btn" type="text" name="phone_number" placeholder="Please enter your phone number "></input>
 
                     <label className="form_label"> E-mail </label>
-                    <input className="input_btn" type="text" placeholder="Please enter your email"></input>
+                    <input className="input_btn" type="text" name="email" placeholder="Please enter your email"></input>
 
                     <label className="form_label">Password </label>
-                    <input className="input_btn" type="password" placeholder="Please enter your password"></input>
+                    <input className="input_btn" type="password" name="password" placeholder="Please enter your password"></input>
 
                     <input className="input_btn submit_btn" type="button" value="Submit"></input>
                     <div className="form_notification"> something went wrong </div>
