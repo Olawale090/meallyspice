@@ -9,11 +9,12 @@
 }
 
 .services_tabs{
-    background-color:red;
+    background-color:rgba(0, 0, 0, 0.336);
     height: 12em;
     width: 25em;
     margin:1rem;
     color: white;
+    background-blend-mode: multiply;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +24,44 @@
 }
 
 .services_tabs:hover{
-    background-color: whitesmoke;
-    color: rgb(92, 92, 92);
+    color: rgb(241, 15, 15);
     cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.event_tab{
+    background-image: url('../meal_pics/event_food.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home_support_tab{
+    background-image: url('../meal_pics/pexels-andrea-piacquadio-3772534.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.soup_tab{
+    background-image: url("../meal_pics/saucy\ efo\ riro.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cocktail_tab{
+    background-image: url('../meal_pics/pexels-rachel-claire-4819714.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subscription_tab{
+    background-image: url('../meal_pics/Nigerian-Traditional-Wedding-Ranti-and-Isaac-LoveweddingsNG-2706-Events-Small-Chops-Finger-Foods.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.corporate_tab{
+    background-image: url('../meal_pics/pexels-monstera-6238053.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

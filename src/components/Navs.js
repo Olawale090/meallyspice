@@ -4,6 +4,33 @@ import Newsletter from './Newsletter';
 // import Signup from './Signup';
 
 export class Navs extends Component {
+
+    state = {
+        customerName:localStorage.getItem("customerName")
+    }
+
+    hideMenu = ()=> {
+        if(this.state.customerName !==""){
+            return {
+                display:"none",
+                color:'red'
+            }
+        }
+    };
+
+    showCustomerName = ()=>{
+        if(this.state.customerName !==""){
+            return {
+                color:'rgb(39, 197, 124)',
+                display:"block"
+            }
+        }else{
+            return {
+                display:"none"
+            }
+        }
+    }
+
     render() {
         return (
             <div>
@@ -21,7 +48,8 @@ export class Navs extends Component {
                     <li className ='menu_list'> <Link to='/logictest' > Terms and Conditions </Link> </li>
                     {/* <li className ='menu_list'> Newsletter </li>
                     <li className ='menu_list'> Customercare </li> */}
-                    <li className ='menu_list'> <Link to='/signin' style={{color:'red'}}> Sign in </Link></li>
+                    <li className ='menu_list'> <Link to='/signin' style={this.hideMenu()}> Sign in </Link></li>
+                    <li className ='menu_list'> <Link to='/signin' style={this.showCustomerName()}> {localStorage.getItem("customerName")} </Link></li>
 
                 </section>
 

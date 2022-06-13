@@ -24,6 +24,10 @@
     height: auto;
 }
 
+.price_display{
+    font-family: 'goesans';
+}
+
 .calculate_btn{
     background-color: rgb(39, 197, 124);
     color:rgb(255, 255, 255);

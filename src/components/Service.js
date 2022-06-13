@@ -12,12 +12,12 @@ export default class Service extends Component {
                 {/* <img src={meally_avatar} className="meally_avatar" alt="meally_avatar"/> */}
 
                 <div className='services'>
-                    <li className='services_tabs'>Event delivery</li>
-                    <li className='services_tabs'>Home support</li>
-                    <li className='services_tabs'>Soup</li>
-                    <li className='services_tabs'>Cocktail party delivery</li>
-                    <li className='services_tabs'>Monthly Subscription</li>
-                    <li className='services_tabs'>Corporate event delivery</li>
+                    <li className='services_tabs event_tab'>Event delivery</li>
+                    <li className='services_tabs home_support_tab'>Home support</li>
+                    <li className='services_tabs soup_tab'>Soup</li>
+                    <li className='services_tabs cocktail_tab'>Cocktail party delivery</li>
+                    <li className='services_tabs subscription_tab'>Snacks</li>
+                    <li className='services_tabs corporate_tab'>Corporate event delivery</li>
                 </div>
             </div>
         )
